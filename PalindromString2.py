@@ -7,3 +7,9 @@ for i in range(strL):
     if strL==0:
         break
 print(strR)
+
+string = "Hello, World!"
+reversed_string = ""
+for char in string:
+    reversed_string = char + reversed_string
+print(reversed_string)  # Output: !dlroW ,olleH
